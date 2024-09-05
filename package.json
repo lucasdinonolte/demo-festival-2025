@@ -1,0 +1,21 @@
+{
+  "name": "demo-festival",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sketch-1.js",
+  "scripts": {
+    "render": "sh ./render.sh",
+    "dev:1": "canvas-sketch sketch-1.js --open --output=./tmp/frames-1/",
+    "dev:2": "canvas-sketch sketch-2.js --open --output=./tmp/frames-2/",
+    "dev:3": "canvas-sketch sketch-3.js --open --output=./tmp/frames-3/",
+    "dev:4": "canvas-sketch sketch-4.js --open --output=./tmp/frames-4/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "canvas-sketch": "^0.7.7",
+    "canvas-sketch-cli": "^1.15.0",
+    "seedrandom": "^3.0.5"
+  }
+}
